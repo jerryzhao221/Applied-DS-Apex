@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+
+# Local raw data files are too large for GitHub.
+data/*.zip
+data/csv/
+
+# Keep compact aggregate outputs for quick reproducibility.
+!data/daily_usage.csv
+!data/hourly_usage.csv
