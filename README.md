@@ -40,6 +40,30 @@ Applied-DS-Apex/
 
 ---
 
+## Results
+
+| Model | MAE | RMSE |
+|:--|--:|--:|
+| Moving Average | 25,207 | 30,518 |
+| Previous Day | 19,929 | 28,648 |
+| Previous Week Same Day | 23,669 | 32,190 |
+| **Linear Regression** | **15,255** | **20,795** |
+| ARIMA(1,1,1) | 26,391 | 31,675 |
+
+Test set: June 2025 (30 days).
+
+---
+
+## How to Run
+
+```bash
+jupyter notebook ADS_code.ipynb
+```
+
+Run all cells in order. Monthly zip files are cached in `data/` after the first run.
+
+---
+
 ## Key Dates
 
 | Milestone | Date |
