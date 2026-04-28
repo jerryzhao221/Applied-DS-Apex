@@ -52,15 +52,6 @@ Applied-DS-Apex/
 
 Test set: June 2025 (30 days).
 
----
-
-## How to Run
-
-```bash
-jupyter notebook ADS_code.ipynb
-```
-
-Run all cells in order. Monthly zip files are cached in `data/` after the first run.
 
 ---
 
